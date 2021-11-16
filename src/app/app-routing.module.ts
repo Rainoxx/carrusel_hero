@@ -11,6 +11,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'ultra-instinto',
+    loadChildren: () => import('./ultra-instinto/ultra-instinto.module').then( m => m.UltraInstintoPageModule)
+  },
+  {
+    path: 'linterna-verde',
+    loadChildren: () => import('./linterna-verde/linterna-verde.module').then( m => m.LinternaVerdePageModule)
+  },
+  {
+    path: 'superman',
+    loadChildren: () => import('./superman/superman.module').then( m => m.SupermanPageModule)
+  },
 ];
 
 @NgModule({
