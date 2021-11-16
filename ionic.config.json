@@ -1,0 +1,7 @@
+{
+  "name": "carrusel_hero",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
